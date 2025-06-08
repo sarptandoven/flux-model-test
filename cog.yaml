@@ -1,0 +1,25 @@
+build:
+  gpu: true
+  cuda: "11.8"
+  python_version: "3.11"
+  system_packages:
+    - "git"
+    - "wget"
+    - "unzip"
+  python_packages:
+    - "torch==2.2.2+cu121"
+    - "torchvision==0.17.2+cu121"
+    - "torchaudio==2.2.2"
+    - "numpy==1.26.4"
+    - "huggingface_hub"
+    - "fastapi"
+    - "uvicorn"
+    - "python-multipart"
+    - "pillow"
+    - "opencv-python"
+    - "insightface"
+    - "onnxruntime-gpu"
+    - "xformers"
+    - "ftfy"
+
+predict: "predict.py:ComfyFluxPredictor" 
