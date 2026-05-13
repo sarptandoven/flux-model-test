@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Logs and temporary output
+*.log
+/tmp/
+tmp/
+output/
+outputs/
+results/
+
+# Large model artifacts
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.bin
+models/
+checkpoints/
